@@ -22,7 +22,7 @@ public class PaymentService {
     }
     public  String paymentProcessing(){
         //API call to 3rd party payment gateway to paypal paytm
-        return new Random().nextBoolean()?"succes":"false";
+        return new Random().nextBoolean()?"success":"false";
     }
 
     public Payment findPaymentByOrderId(int orderId) {
